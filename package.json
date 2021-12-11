@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0-alpha",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stas001@bitbucket.org/stas001/weather-cli.git"
+  },
+  "author": "Z S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/stas001/weather-cli/issues"
+  },
+  "homepage": "https://bitbucket.org/stas001/weather-cli#readme",
+  "bugs": {
+    "url": "https",
+    "email": ""
+  }
+}
