@@ -15,11 +15,11 @@
   "author": "Z S",
   "license": "ISC",
   "bugs": {
-    "url": "https://bitbucket.org/stas001/weather-cli/issues"
-  },
-  "homepage": "https://bitbucket.org/stas001/weather-cli#readme",
-  "bugs": {
     "url": "https",
     "email": ""
+  },
+  "homepage": "https://bitbucket.org/stas001/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
   }
 }
