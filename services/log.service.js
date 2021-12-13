@@ -19,4 +19,18 @@ function printHelp() {
     );
 }
 
-export { printError, printSuccess, printHelp };
+function printWeather(weather) {
+    let [{description}] = weather.weather;
+
+    console.log(
+        dedent`${chalk.bgBlue('WEATHER')}
+        Погода в городе ${weather.name}
+        ${description}
+        Температура: ${weather.main.temp}
+        Ощущается как: ${weather.main.feels_like}
+        Влажность: ${weather.main.humidity}%
+        Скорость ветра: ${weather.wind.speed}`
+    );
+}
+
+export { printError, printSuccess, printHelp, printWeather };
