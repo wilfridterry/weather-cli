@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-nodecourse",
   "version": "1.0.0-alpha",
   "description": "CLI for getting weather",
   "main": "weater.js",
@@ -17,10 +17,6 @@
   },
   "author": "Z S",
   "license": "ISC",
-  "bugs": {
-    "url": "https",
-    "email": ""
-  },
   "homepage": "https://bitbucket.org/stas001/weather-cli#readme",
   "dependencies": {
     "axios": "^0.24.0",
