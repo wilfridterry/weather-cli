@@ -26,8 +26,7 @@ async function getKeyValue(key) {
         return undefined;
     }
 
-    const file = await promises.readFile(filepath);
-    const data = JSON.parse(file);
+    const data = await getValidFileData();
 
     return data[key];
 }
